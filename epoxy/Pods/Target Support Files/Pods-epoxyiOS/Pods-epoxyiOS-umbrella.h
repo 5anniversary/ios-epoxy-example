@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_epoxyVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_epoxyVersionString[];
+FOUNDATION_EXPORT double Pods_epoxyiOSVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_epoxyiOSVersionString[];
 

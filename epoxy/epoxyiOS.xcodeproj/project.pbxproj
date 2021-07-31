@@ -3,11 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		564CD8CEEDA1777A097D6DD5 /* Pods_epoxy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2F24849C49FF4C730EDDD61 /* Pods_epoxy.framework */; };
+		4FDA64F571467D8D0B9AFEE8 /* Pods_epoxyiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1857B428559261B6236D2131 /* Pods_epoxyiOS.framework */; };
 		C5EB74D326B57A1B00EA0C17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EB74D226B57A1B00EA0C17 /* AppDelegate.swift */; };
 		C5EB74D526B57A1B00EA0C17 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EB74D426B57A1B00EA0C17 /* SceneDelegate.swift */; };
 		C5EB74D726B57A1B00EA0C17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EB74D626B57A1B00EA0C17 /* ViewController.swift */; };
@@ -17,10 +17,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1857B428559261B6236D2131 /* Pods_epoxyiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_epoxyiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7364BE479AC463A67885D161 /* Pods-epoxy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-epoxy.release.xcconfig"; path = "Target Support Files/Pods-epoxy/Pods-epoxy.release.xcconfig"; sourceTree = "<group>"; };
-		A2F24849C49FF4C730EDDD61 /* Pods_epoxy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_epoxy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CBE4EC2FB146109D236B0E /* Pods-epoxyiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-epoxyiOS.release.xcconfig"; path = "Target Support Files/Pods-epoxyiOS/Pods-epoxyiOS.release.xcconfig"; sourceTree = "<group>"; };
 		AA2273A91752618C724F440C /* Pods-epoxy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-epoxy.debug.xcconfig"; path = "Target Support Files/Pods-epoxy/Pods-epoxy.debug.xcconfig"; sourceTree = "<group>"; };
-		C5EB74CF26B57A1B00EA0C17 /* epoxy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = epoxy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5EB74CF26B57A1B00EA0C17 /* epoxyiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = epoxyiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5EB74D226B57A1B00EA0C17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5EB74D426B57A1B00EA0C17 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C5EB74D626B57A1B00EA0C17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -28,6 +29,7 @@
 		C5EB74DB26B57A1D00EA0C17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5EB74DE26B57A1D00EA0C17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5EB74E026B57A1D00EA0C17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB660D04745534F92D87941A /* Pods-epoxyiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-epoxyiOS.debug.xcconfig"; path = "Target Support Files/Pods-epoxyiOS/Pods-epoxyiOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				564CD8CEEDA1777A097D6DD5 /* Pods_epoxy.framework in Frameworks */,
+				4FDA64F571467D8D0B9AFEE8 /* Pods_epoxyiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,7 +47,7 @@
 		83FD7EE8945B627CC3090C23 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A2F24849C49FF4C730EDDD61 /* Pods_epoxy.framework */,
+				1857B428559261B6236D2131 /* Pods_epoxyiOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -63,7 +65,7 @@
 		C5EB74D026B57A1B00EA0C17 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C5EB74CF26B57A1B00EA0C17 /* epoxy.app */,
+				C5EB74CF26B57A1B00EA0C17 /* epoxyiOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,17 +89,18 @@
 			children = (
 				AA2273A91752618C724F440C /* Pods-epoxy.debug.xcconfig */,
 				7364BE479AC463A67885D161 /* Pods-epoxy.release.xcconfig */,
+				CB660D04745534F92D87941A /* Pods-epoxyiOS.debug.xcconfig */,
+				84CBE4EC2FB146109D236B0E /* Pods-epoxyiOS.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C5EB74CE26B57A1B00EA0C17 /* epoxy */ = {
+		C5EB74CE26B57A1B00EA0C17 /* epoxyiOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C5EB74F926B57A1D00EA0C17 /* Build configuration list for PBXNativeTarget "epoxy" */;
+			buildConfigurationList = C5EB74F926B57A1D00EA0C17 /* Build configuration list for PBXNativeTarget "epoxyiOS" */;
 			buildPhases = (
 				17EAC1BB3AF2FE0C7C9877C0 /* [CP] Check Pods Manifest.lock */,
 				C5EB74CB26B57A1B00EA0C17 /* Sources */,
@@ -109,9 +112,9 @@
 			);
 			dependencies = (
 			);
-			name = epoxy;
+			name = epoxyiOS;
 			productName = epoxy;
-			productReference = C5EB74CF26B57A1B00EA0C17 /* epoxy.app */;
+			productReference = C5EB74CF26B57A1B00EA0C17 /* epoxyiOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -128,7 +131,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C5EB74CA26B57A1B00EA0C17 /* Build configuration list for PBXProject "epoxy" */;
+			buildConfigurationList = C5EB74CA26B57A1B00EA0C17 /* Build configuration list for PBXProject "epoxyiOS" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -141,7 +144,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C5EB74CE26B57A1B00EA0C17 /* epoxy */,
+				C5EB74CE26B57A1B00EA0C17 /* epoxyiOS */,
 			);
 		};
 /* End PBXProject section */
@@ -175,7 +178,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-epoxy-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-epoxyiOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -188,15 +191,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-epoxy/Pods-epoxy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-epoxyiOS/Pods-epoxyiOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-epoxy/Pods-epoxy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-epoxyiOS/Pods-epoxyiOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-epoxy/Pods-epoxy-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-epoxyiOS/Pods-epoxyiOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -352,7 +355,7 @@
 		};
 		C5EB74FA26B57A1D00EA0C17 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA2273A91752618C724F440C /* Pods-epoxy.debug.xcconfig */;
+			baseConfigurationReference = CB660D04745534F92D87941A /* Pods-epoxyiOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -372,7 +375,7 @@
 		};
 		C5EB74FB26B57A1D00EA0C17 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7364BE479AC463A67885D161 /* Pods-epoxy.release.xcconfig */;
+			baseConfigurationReference = 84CBE4EC2FB146109D236B0E /* Pods-epoxyiOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -393,7 +396,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C5EB74CA26B57A1B00EA0C17 /* Build configuration list for PBXProject "epoxy" */ = {
+		C5EB74CA26B57A1B00EA0C17 /* Build configuration list for PBXProject "epoxyiOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C5EB74F726B57A1D00EA0C17 /* Debug */,
@@ -402,7 +405,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C5EB74F926B57A1D00EA0C17 /* Build configuration list for PBXNativeTarget "epoxy" */ = {
+		C5EB74F926B57A1D00EA0C17 /* Build configuration list for PBXNativeTarget "epoxyiOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C5EB74FA26B57A1D00EA0C17 /* Debug */,

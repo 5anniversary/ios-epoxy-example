@@ -1,4 +1,4 @@
-${PODS_ROOT}/Target Support Files/Pods-epoxy/Pods-epoxy-frameworks.sh
+${PODS_ROOT}/Target Support Files/Pods-epoxyiOS/Pods-epoxyiOS-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/Epoxy/Epoxy.framework
 ${BUILT_PRODUCTS_DIR}/EpoxyBars/EpoxyBars.framework
 ${BUILT_PRODUCTS_DIR}/EpoxyCollectionView/EpoxyCollectionView.framework
