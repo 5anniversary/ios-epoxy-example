@@ -1,0 +1,6 @@
+framework module Pods_epoxy {
+  umbrella header "Pods-epoxy-umbrella.h"
+
+  export *
+  module * { export * }
+}

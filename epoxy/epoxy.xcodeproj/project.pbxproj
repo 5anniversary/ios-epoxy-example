@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		564CD8CEEDA1777A097D6DD5 /* Pods_epoxy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2F24849C49FF4C730EDDD61 /* Pods_epoxy.framework */; };
+		C5EB74D326B57A1B00EA0C17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EB74D226B57A1B00EA0C17 /* AppDelegate.swift */; };
+		C5EB74D526B57A1B00EA0C17 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EB74D426B57A1B00EA0C17 /* SceneDelegate.swift */; };
+		C5EB74D726B57A1B00EA0C17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EB74D626B57A1B00EA0C17 /* ViewController.swift */; };
+		C5EB74DA26B57A1B00EA0C17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5EB74D826B57A1B00EA0C17 /* Main.storyboard */; };
+		C5EB74DC26B57A1D00EA0C17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5EB74DB26B57A1D00EA0C17 /* Assets.xcassets */; };
+		C5EB74DF26B57A1D00EA0C17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5EB74DD26B57A1D00EA0C17 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7364BE479AC463A67885D161 /* Pods-epoxy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-epoxy.release.xcconfig"; path = "Target Support Files/Pods-epoxy/Pods-epoxy.release.xcconfig"; sourceTree = "<group>"; };
+		A2F24849C49FF4C730EDDD61 /* Pods_epoxy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_epoxy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA2273A91752618C724F440C /* Pods-epoxy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-epoxy.debug.xcconfig"; path = "Target Support Files/Pods-epoxy/Pods-epoxy.debug.xcconfig"; sourceTree = "<group>"; };
+		C5EB74CF26B57A1B00EA0C17 /* epoxy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = epoxy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5EB74D226B57A1B00EA0C17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C5EB74D426B57A1B00EA0C17 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C5EB74D626B57A1B00EA0C17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C5EB74D926B57A1B00EA0C17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5EB74DB26B57A1D00EA0C17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5EB74DE26B57A1D00EA0C17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5EB74E026B57A1D00EA0C17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5EB74CC26B57A1B00EA0C17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564CD8CEEDA1777A097D6DD5 /* Pods_epoxy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83FD7EE8945B627CC3090C23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2F24849C49FF4C730EDDD61 /* Pods_epoxy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5EB74C626B57A1B00EA0C17 = {
+			isa = PBXGroup;
+			children = (
+				C5EB74D126B57A1B00EA0C17 /* epoxy */,
+				C5EB74D026B57A1B00EA0C17 /* Products */,
+				CAFC0B30FF981314C3E2A9EE /* Pods */,
+				83FD7EE8945B627CC3090C23 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C5EB74D026B57A1B00EA0C17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5EB74CF26B57A1B00EA0C17 /* epoxy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5EB74D126B57A1B00EA0C17 /* epoxy */ = {
+			isa = PBXGroup;
+			children = (
+				C5EB74D226B57A1B00EA0C17 /* AppDelegate.swift */,
+				C5EB74D426B57A1B00EA0C17 /* SceneDelegate.swift */,
+				C5EB74D626B57A1B00EA0C17 /* ViewController.swift */,
+				C5EB74D826B57A1B00EA0C17 /* Main.storyboard */,
+				C5EB74DB26B57A1D00EA0C17 /* Assets.xcassets */,
+				C5EB74DD26B57A1D00EA0C17 /* LaunchScreen.storyboard */,
+				C5EB74E026B57A1D00EA0C17 /* Info.plist */,
+			);
+			path = epoxy;
+			sourceTree = "<group>";
+		};
+		CAFC0B30FF981314C3E2A9EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA2273A91752618C724F440C /* Pods-epoxy.debug.xcconfig */,
+				7364BE479AC463A67885D161 /* Pods-epoxy.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5EB74CE26B57A1B00EA0C17 /* epoxy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5EB74F926B57A1D00EA0C17 /* Build configuration list for PBXNativeTarget "epoxy" */;
+			buildPhases = (
+				17EAC1BB3AF2FE0C7C9877C0 /* [CP] Check Pods Manifest.lock */,
+				C5EB74CB26B57A1B00EA0C17 /* Sources */,
+				C5EB74CC26B57A1B00EA0C17 /* Frameworks */,
+				C5EB74CD26B57A1B00EA0C17 /* Resources */,
+				C33639F37874E4D2071EE013 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = epoxy;
+			productName = epoxy;
+			productReference = C5EB74CF26B57A1B00EA0C17 /* epoxy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5EB74C726B57A1B00EA0C17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					C5EB74CE26B57A1B00EA0C17 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = C5EB74CA26B57A1B00EA0C17 /* Build configuration list for PBXProject "epoxy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5EB74C626B57A1B00EA0C17;
+			productRefGroup = C5EB74D026B57A1B00EA0C17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5EB74CE26B57A1B00EA0C17 /* epoxy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5EB74CD26B57A1B00EA0C17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5EB74DF26B57A1D00EA0C17 /* LaunchScreen.storyboard in Resources */,
+				C5EB74DC26B57A1D00EA0C17 /* Assets.xcassets in Resources */,
+				C5EB74DA26B57A1B00EA0C17 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17EAC1BB3AF2FE0C7C9877C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-epoxy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C33639F37874E4D2071EE013 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-epoxy/Pods-epoxy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-epoxy/Pods-epoxy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-epoxy/Pods-epoxy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5EB74CB26B57A1B00EA0C17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5EB74D726B57A1B00EA0C17 /* ViewController.swift in Sources */,
+				C5EB74D326B57A1B00EA0C17 /* AppDelegate.swift in Sources */,
+				C5EB74D526B57A1B00EA0C17 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C5EB74D826B57A1B00EA0C17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5EB74D926B57A1B00EA0C17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C5EB74DD26B57A1D00EA0C17 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5EB74DE26B57A1D00EA0C17 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5EB74F726B57A1D00EA0C17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C5EB74F826B57A1D00EA0C17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5EB74FA26B57A1D00EA0C17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA2273A91752618C724F440C /* Pods-epoxy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36BC59Q598;
+				INFOPLIST_FILE = epoxy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = junhyeon.dev.epoxy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C5EB74FB26B57A1D00EA0C17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7364BE479AC463A67885D161 /* Pods-epoxy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36BC59Q598;
+				INFOPLIST_FILE = epoxy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = junhyeon.dev.epoxy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5EB74CA26B57A1B00EA0C17 /* Build configuration list for PBXProject "epoxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5EB74F726B57A1D00EA0C17 /* Debug */,
+				C5EB74F826B57A1D00EA0C17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5EB74F926B57A1D00EA0C17 /* Build configuration list for PBXNativeTarget "epoxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5EB74FA26B57A1D00EA0C17 /* Debug */,
+				C5EB74FB26B57A1D00EA0C17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5EB74C726B57A1B00EA0C17 /* Project object */;
+}
